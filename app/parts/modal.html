@@ -1,0 +1,41 @@
+<!-- [1] -->
+<div className="modal micromodal-slide" id="modal-1" aria-hidden="true">
+  <div className="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div
+      className="modal__container"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-1-title"
+    >
+      <header className="modal__header">
+        <h2 className="modal__title" id="modal-1-title">Оставить заявку</h2>
+        <button className="modal__close" aria-label="Закрыть окно" data-micromodal-close></button>
+      </header>
+
+      <form action="#">
+        <main className="modal__content">
+          <input
+            type="text"
+            name="VH-Name"
+            className="form-input modal__input"
+            placeholder="Ваше имя"
+          />
+          <input
+            type="text"
+            name="VH-Phone"
+            className="form-input modal__input"
+            placeholder="Ваш телефон"
+          />
+          <textarea
+            className="form-input modal__input"
+            name="Message"
+            placeholder="Сообщение"
+          ></textarea>
+        </main>
+        <footer className="modal__footer">
+          <button className="button"><span>Отправить</span></button>
+        </footer>
+      </form>
+    </div>
+  </div>
+</div>
